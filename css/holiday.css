@@ -1,0 +1,38 @@
+.jumbotron{
+	background-color:darkorange;
+	margin-bottom:1px;
+	height:0px;
+}
+#m1{
+      font-family:SOLID EDGE STENCIL;
+      font-size: 72px;
+      color:brown;
+      margin-bottom:-10px;
+      margin-left:20px;
+     
+}
+#m2{
+	 margin-left:10px;
+	font-family:freestyle script;
+	font-size: 36px;
+	color:blue;
+	text-align: center;
+}
+#m3{
+	float: right;
+}
+#m4{
+	font-family:palatino linotype;
+	font-size:40px;
+	float: left;
+}
+
+body{
+	background-color:#C0C0C0;
+}
+.rounded-circle{
+	border-radius: 50%;
+	width:200px;
+	height:200px;
+	top: -200px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotels</title>
+	<link rel="stylesheet" type="text/css" href="css/mainhotel.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size:40px;
+  font-weight: bold;
+}
+
+.container {
+  position: relative;
+  max-width:100%;
+  margin: 0 ;
+}
+
+.container img {width:100%;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #808000 ;
+  width: 100%;
+  padding: 20px;
+  font-family: "COMIC SANS";
+  font-size: 25px;
+}
+</style>
+</head>
+<script type="text/javascript" src="js/room.js"></script>
+<body>
+	<div class="bg1 row">
+				<div>
+					<h1>The Travel Planners</h1>
+				<p class="para" >-we first think for you</p>
+			</div>
+			<div>
+				<img src="img/logo.jpg " class="circle" alt="SJBIT LOGO">
+			</div>
+		</div>
+			<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home5.html">Home</a>
+  <a href="slide1.html">Flight</a>
+  <a href="#">Hotel</a>
+  <a href="holidays.html">Holidays</a>
+  
+  <a href="login.html">Log In</a>
+  <a href="sign.html">Sign Up</a>
+
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776;</button> 
+  <h2><div>
+<p></p>
+
+</h2>
+  
+</div>
+<script >
+  function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+
+
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+</div>
+
+
+
+<H2  style="text-align: center;color:red ;font-size:40px";>Hotels!!Go Ahead</H2>
+  <div class="content">
+<div class="container">
+  <img src="img/image13.jpg" alt="Hotel" style="width:100%;">
+  <ul class="content">
+    
+  <a href="hotel1.html">  	<li style="text-align: center;color:gold">SINGAPORE</li></a>
+  <a href="Hotel_japan.html">  	<li style="text-align: center;color:gold">JAPAN</li></a>
+   <a href="hotel_south_korea.html"> 	<LI style="text-align: center;color:gold" >SOUTH KOREA</LI></a>
+    </ul>
+  </div>
+
+
+</body>
+</html>
+
+
+  
